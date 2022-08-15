@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;   
+
+}
+
+h1 {
+    color: #1c8624;
+}
+
+h1 span {
+    color: #333;
+    background-color: #13dd13;
+    display: inline-block;
+    padding: 5px;
+}
+
+input {
+    border: 4px solid #333;
+    font-size: 30px;
+}
+
+#winScreen {
+    background-image: url('https://media.giphy.com/media/NRIvDtcPXl3nW/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacty .5s ease-in-out;
+}
+
+#winScreen[data-status="active"] {
+    opacity: 1;
+}
