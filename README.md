@@ -9,5 +9,8 @@ Este é um projetinho simples que fiz acompanhando um video, recriei para que eu
 <li>CSS</li>
 <li>JavaScript</li>
 
+## IDE usada:
+<li>Visual Studio Code</li>
+
 ## Referências:
 <li>https://www.youtube.com/watch?v=6KS4t97yMlI&ab_channel=MarioSouto-DevSoutinho</li>
